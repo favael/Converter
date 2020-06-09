@@ -1,4 +1,4 @@
-package fxController.metrics.metr;
+package pl.SDA.fxController.metrics.metr;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

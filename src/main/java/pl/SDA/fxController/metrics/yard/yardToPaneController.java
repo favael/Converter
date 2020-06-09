@@ -1,4 +1,4 @@
-package fxController.metrics.yard;
+package pl.SDA.fxController.metrics.yard;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

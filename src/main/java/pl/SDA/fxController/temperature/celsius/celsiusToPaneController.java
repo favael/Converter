@@ -1,4 +1,4 @@
-package fxController.temperature.celsius;
+package pl.SDA.fxController.temperature.celsius;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

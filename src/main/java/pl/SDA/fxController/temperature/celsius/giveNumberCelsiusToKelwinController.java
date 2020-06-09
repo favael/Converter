@@ -1,6 +1,4 @@
-package fxController.temperature.celsius;
-
-import data.Temperature;
+package pl.SDA.fxController.temperature.celsius;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -10,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import pl.SDA.data.Temperature;
 
 import java.io.IOException;
 
