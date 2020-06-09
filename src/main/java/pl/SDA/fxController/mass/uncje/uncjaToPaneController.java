@@ -1,4 +1,4 @@
-package fxController.mass.uncje;
+package pl.SDA.fxController.mass.uncje;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

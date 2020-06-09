@@ -1,9 +1,9 @@
-package dataViewController;
+package pl.SDA.dataViewController;
 
-import data.Mass;
-import data.Metrics;
-import data.Temperature;
 
+import pl.SDA.data.Mass;
+import pl.SDA.data.Metrics;
+import pl.SDA.data.Temperature;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

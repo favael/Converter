@@ -1,6 +1,5 @@
-package fxController.metrics.landMile;
+package pl.SDA.fxController.metrics.landMile;
 
-import data.Metrics;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -10,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import pl.SDA.data.Metrics;
 
 import java.io.IOException;
 

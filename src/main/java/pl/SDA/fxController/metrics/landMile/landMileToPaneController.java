@@ -1,4 +1,4 @@
-package fxController.metrics.landMile;
+package pl.SDA.fxController.metrics.landMile;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

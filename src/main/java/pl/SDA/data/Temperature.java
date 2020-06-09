@@ -1,4 +1,4 @@
-package data;
+package pl.SDA.data;
 
 import java.util.Scanner;
 

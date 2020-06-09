@@ -1,4 +1,4 @@
-package fxController;
+package pl.SDA.fxController;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,8 +9,9 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class mainPaneController {
 
@@ -34,7 +35,7 @@ public class mainPaneController {
                 Stage stage = (Stage) metricButton.getScene().getWindow();
 
                 try {
-                    VBox mainPane = FXMLLoader.load(getClass().getResource("/fxml/metrics/metricsPane.fxml"));
+                   VBox mainPane = FXMLLoader.load(getClass().getResource("/fxml/metrics/metricsPane.fxml"));
 
                     Scene scene = new Scene(mainPane);
                     stage.setScene(scene);
@@ -78,7 +79,6 @@ public class mainPaneController {
 
                 try {
                     VBox mainPane = FXMLLoader.load(getClass().getResource("/fxml/temperature/temperaturePane.fxml"));
-
                     Scene scena = new Scene(mainPane);
                     stage.setScene(scena);
                     stage.setTitle("Wybór tempoeratury: ");

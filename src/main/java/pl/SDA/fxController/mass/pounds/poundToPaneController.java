@@ -1,4 +1,4 @@
-package fxController.mass.pounds;
+package pl.SDA.fxController.mass.pounds;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

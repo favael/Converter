@@ -1,6 +1,5 @@
-package fxController.mass.kg;
+package pl.SDA.fxController.mass.kg;
 
-import data.Mass;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -10,8 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import pl.SDA.data.Mass;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class giveNumberKgToPoundsController {
 
@@ -34,11 +36,11 @@ public class giveNumberKgToPoundsController {
             @Override
             public void handle(ActionEvent actionEvent) {
                 try {
-                    double value = Double.parseDouble(textAreaButton.getText());
-                    String stringValue = String.valueOf(mass.kilogramToPunds(value));
-                    textAreaButton.setText(stringValue);
+                    double value = Double.parseDouble (textAreaButton.getText ());
+                    String stringValue = String.valueOf (mass.kilogramToPunds (value));
+                    textAreaButton.setText (stringValue);
                 } catch (IllegalArgumentException e) {
-                    textAreaButton.setText("Podaj liczbę!!");
+                    textAreaButton.setText ("Podaj liczbę!!");
                 }
             }
 

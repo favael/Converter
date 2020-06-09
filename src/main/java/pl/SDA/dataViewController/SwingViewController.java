@@ -1,4 +1,4 @@
-package dataViewController;
+package pl.SDA.dataViewController;
 
 public class SwingViewController {
 }

@@ -1,6 +1,4 @@
-package fxController.mass.uncje;
-
-import data.Mass;
+package pl.SDA.fxController.mass.uncje;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -10,6 +8,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import pl.SDA.data.Mass;
 
 import java.io.IOException;
 

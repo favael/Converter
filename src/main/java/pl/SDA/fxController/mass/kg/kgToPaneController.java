@@ -1,4 +1,4 @@
-package fxController.mass.kg;
+package pl.SDA.fxController.mass.kg;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -9,7 +9,9 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class kgToPaneController {
 
