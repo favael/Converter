@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e53d8cf-fe6b-4c2f-baa8-97cca32eaf2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Mass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Mass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Metrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Metrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/ConsoleDataView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/ConsoleDataView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/JavaFXViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/JavaFXViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/SwingViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/SwingViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mainPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mainPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/kgToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/kgToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/massPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/massPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToKgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToKgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToUncjeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToUncjeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/poundToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/poundToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoKgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoKgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoPoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoPoundsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/uncjaToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/uncjaToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/feetToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/feetToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToMetrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToMetrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToYaardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToYaardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberfeetToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberfeetToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToMetrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToMetrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToYardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToYardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/landMileToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/landMileToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToYardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToYardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metricsPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metricsPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/seaMileToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/seaMileToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToSeaMileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Converter-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Converter-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,33 +142,51 @@
     </state>
     <state x="1317" y="366" key="#AppTest.shouldAnswerWithTrue/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698020407" />
     <state x="883" y="227" key="#AppTest/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698044460" />
+    <state x="614" y="128" key="#Main" timestamp="1591863895162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="128" key="#Main/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591863895162" />
+    <state x="2457" y="124" key="#Main/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731044939" />
     <state x="883" y="211" key="#SDA.shouldAnswerWithTrue" timestamp="1591698031565">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="883" y="211" key="#SDA.shouldAnswerWithTrue/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698031565" />
-    <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591698062238">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="2402" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591731024260">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state x="2402" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731024260" />
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698062238" />
     <state x="1007" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591695436781">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1007" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591695436781" />
-    <state width="2517" height="232" key="GridCell.Tab.0.bottom" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="2728" y="270" key="FileChooserDialogImpl" timestamp="1591730535707">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state x="2728" y="270" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591730535707" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1591863927995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591863927995" />
+    <state width="1637" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731054273" />
     <state width="2517" height="232" key="GridCell.Tab.0.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.center" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1591863927995">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591863927995" />
+    <state width="1637" height="264" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731054273" />
     <state width="2517" height="232" key="GridCell.Tab.0.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.left" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1591863927995">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591863927995" />
+    <state width="1637" height="264" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731054273" />
     <state width="2517" height="232" key="GridCell.Tab.0.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.right" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1591863927995">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1591863927995" />
+    <state width="1637" height="264" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1591731054273" />
     <state width="2517" height="232" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
     <state width="2517" height="348" key="GridCell.Tab.1.bottom" timestamp="1591698062783">
       <screen x="0" y="0" width="2560" height="1040" />
