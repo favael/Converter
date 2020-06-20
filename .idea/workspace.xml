@@ -2,51 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e53d8cf-fe6b-4c2f-baa8-97cca32eaf2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/KgToOuncesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/KgToPoundsConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Mass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Mass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Metrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Metrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/data/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/ConsoleDataView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/ConsoleDataView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/JavaFXViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/JavaFXViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/SwingViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/dataViewController/SwingViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mainPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mainPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/kgToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/kg/kgToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/massPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/massPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToKgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToKgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToUncjeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToUncjeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/poundToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/poundToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoKgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoKgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoPoundsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/giveNumberUncjatoPoundsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/uncjaToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/uncje/uncjaToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/feetToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/feetToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToMetrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToMetrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToYaardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberFeetToYaardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberfeetToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/feet/giveNumberfeetToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToMetrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToMetrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToYardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/giveNumberLandMileToYardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/landMileToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/landMile/landMileToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToSeaMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToYardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metr/giveNumberMetrToYardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metricsPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/metricsPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToLandMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/giveNumberSeaMileToLandMileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/seaMileToPaneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/seaMile/seaMileToPaneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToFeetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToFeetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToSeaMileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/metrics/yard/giveNumberYardToSeaMileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mass/Kg/giveNumberKgToPundsPane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/mass/Kg/giveNumberKgToUncjaPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/mass/Kg/common_convert_layout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/mass/Kg/giveNumberKgToPundsPane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/mass/Kg/giveNumberKgToUncjaPane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToPoundsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/giveNumberKgToUncjaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/SDA/fxController/mass/kg/kgToPaneController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,9 +51,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/fxml/mass/Kg" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/pl/SDA/fxController/mass/pounds/giveNumberPoundsToUncjeController.java" />
   </component>
-  <component name="RunManager" selected="Maven.Converter">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.SDA.fxController.mass.kg" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jwitk\Projects\Converter\src\main\resources\fxml\mass\Kg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.SDA.App" />
       <module name="Converter" />
@@ -186,25 +188,45 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="734" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698062238" />
+    <state x="2518" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1592675359751">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2518" y="151" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592675359751" />
     <state x="1007" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591695436781">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1007" y="117" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591695436781" />
-    <state width="2517" height="232" key="GridCell.Tab.0.bottom" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="2424" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592675979983">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state x="2424" y="190" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592675979983" />
+    <state x="2012" y="92" width="1496" height="826" maximized="true" key="DiffContextDialog" timestamp="1592636934578">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2012" y="92" width="1496" height="826" maximized="true" key="DiffContextDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592636934578" />
+    <state x="2487" y="200" key="FileChooserDialogImpl" timestamp="1592636461561">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2487" y="200" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592636461561" />
+    <state width="1625" height="265" key="GridCell.Tab.0.bottom" timestamp="1592676005651">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1625" height="265" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592676005651" />
     <state width="2517" height="232" key="GridCell.Tab.0.bottom/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.center" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1625" height="265" key="GridCell.Tab.0.center" timestamp="1592676005651">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state width="1625" height="265" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592676005651" />
     <state width="2517" height="232" key="GridCell.Tab.0.center/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.left" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1625" height="265" key="GridCell.Tab.0.left" timestamp="1592676005651">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state width="1625" height="265" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592676005651" />
     <state width="2517" height="232" key="GridCell.Tab.0.left/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
-    <state width="2517" height="232" key="GridCell.Tab.0.right" timestamp="1591703266577">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1625" height="265" key="GridCell.Tab.0.right" timestamp="1592676005651">
+      <screen x="1920" y="0" width="1680" height="1010" />
     </state>
+    <state width="1625" height="265" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592676005651" />
     <state width="2517" height="232" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591703266577" />
     <state width="2517" height="348" key="GridCell.Tab.1.bottom" timestamp="1591698062783">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -222,9 +244,21 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="2517" height="348" key="GridCell.Tab.1.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698062782" />
+    <state x="2519" y="136" key="RollbackChangesDialog" timestamp="1592673269732">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2519" y="136" key="RollbackChangesDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592673269732" />
     <state x="781" y="165" key="SettingsEditor" timestamp="1591698330976">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="165" key="SettingsEditor/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1591698330976" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1592675852374">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592675852374" />
+    <state x="2521" y="206" key="refactoring.ChangeSignatureDialog" timestamp="1592673892882">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2521" y="206" key="refactoring.ChangeSignatureDialog/0.0.1280.680/1920.0.1680.1010@1920.0.1680.1010" timestamp="1592673892882" />
   </component>
 </project>

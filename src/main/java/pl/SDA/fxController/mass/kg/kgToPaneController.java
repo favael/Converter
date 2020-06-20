@@ -9,11 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 
 public class kgToPaneController {
+    private static final String BACK_LAYOUT = "/fxml/mass/Kg/kgToPane.fxml";
+    private static final String COMMON_CONVERTER_LAYOUT = "/fxml/mass/Kg/common_convert_layout.fxml";
 
     @FXML
     private Button toPoundsButton;
@@ -27,23 +27,25 @@ public class kgToPaneController {
 
     public void initialize() throws Exception {
 
-        toUncjaButton.setOnAction (new EventHandler<ActionEvent> () {
+        toUncjaButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
 
-                Stage stage = (Stage) toUncjaButton.getScene ().getWindow ();
+                Stage stage = (Stage) toUncjaButton.getScene().getWindow();
 
                 try {
-                    VBox mainPane = FXMLLoader.load (getClass ().getResource ("/fxml/mass/Kg/giveNumberKgToUncjaPane.fxml"));
-                    Scene scene = new Scene (mainPane);
+                    CommonController controller = new CommonController(new KgToPoundsConverter(), BACK_LAYOUT);
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource(COMMON_CONVERTER_LAYOUT));
+                    loader.setController(controller);
+                    Scene scene = new Scene(loader.load());
 
-                    stage.setScene (scene);
-                    stage.setTitle ("KgToUcja");
-                    stage.show ();
-                    stage.setAlwaysOnTop (true);
-                    stage.setResizable (true);
+                    stage.setScene(scene);
+                    stage.setTitle("KgToUcja");
+                    stage.show();
+                    stage.setAlwaysOnTop(true);
+                    stage.setResizable(true);
                 } catch (IOException e) {
-                    e.printStackTrace ();
+                    e.printStackTrace();
                 }
 
             }
@@ -51,23 +53,25 @@ public class kgToPaneController {
 
         ///////////////////////////////////////////////////////////////////////////////////
 
-        toPoundsButton.setOnAction (new EventHandler<ActionEvent> () {
+        toPoundsButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
 
-                Stage stage = (Stage) toPoundsButton.getScene ().getWindow ();
+                Stage stage = (Stage) toPoundsButton.getScene().getWindow();
 
                 try {
-                    VBox mainPane = FXMLLoader.load (getClass ().getResource ("/fxml/mass/Kg/giveNumberKgToPundsPane.fxml"));
-                    Scene scene = new Scene (mainPane);
+                    CommonController controller = new CommonController(new KgToOuncesConverter(), BACK_LAYOUT);
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource(COMMON_CONVERTER_LAYOUT));
+                    loader.setController(controller);
+                    Scene scene = new Scene(loader.load());
 
-                    stage.setScene (scene);
-                    stage.setTitle ("KgtoPounds");
-                    stage.show ();
-                    stage.setAlwaysOnTop (true);
-                    stage.setResizable (true);
+                    stage.setScene(scene);
+                    stage.setTitle("KgtoPounds");
+                    stage.show();
+                    stage.setAlwaysOnTop(true);
+                    stage.setResizable(true);
                 } catch (IOException e) {
-                    e.printStackTrace ();
+                    e.printStackTrace();
                 }
 
             }
@@ -75,24 +79,24 @@ public class kgToPaneController {
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-        backButton.setOnAction (new EventHandler<ActionEvent> () {
+        backButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
 
-                Stage stage = (Stage) backButton.getScene ().getWindow ();
+                Stage stage = (Stage) backButton.getScene().getWindow();
 
 
                 try {
-                    VBox mainPane = FXMLLoader.load (getClass ().getResource ("/fxml/mainPane.fxml"));
-                    Scene scene = new Scene (mainPane);
+                    VBox mainPane = FXMLLoader.load(getClass().getResource("/fxml/mainPane.fxml"));
+                    Scene scene = new Scene(mainPane);
 
-                    stage.setScene (scene);
-                    stage.setTitle ("Wybór-Opcji");
-                    stage.show ();
-                    stage.setAlwaysOnTop (true);
-                    stage.setResizable (true);
+                    stage.setScene(scene);
+                    stage.setTitle("Wybór-Opcji");
+                    stage.show();
+                    stage.setAlwaysOnTop(true);
+                    stage.setResizable(true);
                 } catch (IOException e) {
-                    e.printStackTrace ();
+                    e.printStackTrace();
                 }
 
             }
